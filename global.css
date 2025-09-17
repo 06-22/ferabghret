@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #ffffff;
-  color: #000000;
+:root {
+    --text-color: #000000;
+    --background-color: #ffffff;
+    --icon-color: #d9d9d9;
+    --page-max-width: 420px;
 }
 
-.page-container {
-  max-width: 420px;
-  margin: 0 auto;
-  overflow: hidden;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.section-container {
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    background-color: var(--background-color);
+    box-sizing: border-box;
+}
+
+@media (max-width: 420px) {
+    .section-container {
+        max-width: 100%;
+    }
 }
