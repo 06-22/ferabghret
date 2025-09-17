@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chula Engineering Activity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:header */
+#section-header {
+    padding: 12px 15px 0;
+}
+
+.main-header {
+    width: 100%;
+    display: flex;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.menu-bar {
+    display: block;
+    width: 34px;
+    height: 7px;
+    background-color: var(--icon-color);
+    border-radius: 2px;
+}
+
+/* CSS for section section:article */
+#section-article {
+    padding-top: 113px;
+    padding-bottom: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event-showcase {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+}
+
+.event-showcase img {
+    display: block;
+    width: 320px;
+    height: 145px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.event-caption {
+    color: var(--text-color);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.21;
+    text-align: center;
+    max-width: 192px;
+}
+
+@media (max-width: 420px) {
+    #section-article {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .event-showcase img {
+        height: auto;
+    }
+    
+    .event-caption {
+        max-width: 90%;
+    }
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header" class="section-container">
+    <header class="main-header">
+        <button class="menu-button" aria-label="Open menu">
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+        </button>
+    </header>
+</section>
+<section id="section-article" class="section-container">
+    <main class="content-wrapper">
+        <figure class="event-showcase">
+            <img src="images/9e42ffe31e5e4090ccf7f918bcfdcea697f642d7.png" alt="Group photo at Chula Engineering event">
+            <figcaption class="event-caption">
+                ไปร่วมกิจกรรมเสริมการเรียนรู้คณะวิศวกรรม<br>จุฬาลงกรณ์มหาวิทยาลัย
+            </figcaption>
+        </figure>
+    </main>
+</section>
+</body>
+</html>
